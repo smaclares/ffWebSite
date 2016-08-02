@@ -1,0 +1,84 @@
+body {
+  background-color: #f2f2f2
+}
+
+#hero-screen {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('public/images/dogandcat.jpg');
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  text-align: center;
+}
+
+  header {
+    padding: 40px;
+  }
+
+  header .title {
+    font-family: 'Courgette', cursive;
+    font-size: 95px;
+    font-style: italic;
+    font-weight: 900;
+    margin-top: 15%;
+  }
+
+  #social-media {
+    font-size: 50px;
+  }
+
+#page-wrapper {
+  background-color: white;
+  border: solid #d1e0e0 1px;
+  box-shadow: 3px 7px 8px #d1e0e0;
+  font-family: 'Raleway', sans-serif;
+  margin: 40px;
+  padding: 25px;
+  margin-left: 10%;
+}
+
+#sidebar {
+  background-color: #27ae60;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px #888888;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+  #pawprint {
+    height: 100px;
+    padding: 30px;
+  }
+
+  #reminder-link {
+    background-color: #8e44ad;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+
+  #reminder-link:hover {
+    text-decoration: none;
+  }
+
+  .autoplay {
+    margin-top: 25px;
+  }
+
+  .content-header {
+    background-color: #27ae60;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px #888888;
+    color: white;
+    padding: 20px;
+  }
+
+#credits {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 20%;
+  padding: 10px;
+  text-align: center;
+}
